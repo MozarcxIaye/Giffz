@@ -1,11 +1,11 @@
 import React from 'react'
 import logo from "../../../assets/logo.png"
-
+import esewa from "../../../assets/esewa.png"
 
 const Footer = () => {
   return (
-    <div className='bottom-0 absolute w-full bg-[#3D3269]'>
-      <footer className="footer text-base-content p-10 ">
+    <div className='bottom-0 absolute w-full bg-[#3D3269] text-slate-100'>
+      <footer className="footer  p-10 ">
         <aside>
           <div className="flex items-center gap-2">
             <img src={logo} alt="" srcset="" />
@@ -17,7 +17,7 @@ const Footer = () => {
         </aside>
         <nav>
           <h6 className="footer-title text-white border-b pb-2">Quick links</h6>
-        
+
           <a className="link link-hover">About Us</a>
           <a className="link link-hover">Delivery Info</a>
           <a className="link link-hover">Our Testimonials</a>
@@ -44,7 +44,11 @@ const Footer = () => {
         </nav>
         <nav>
           <h6 className="footer-title text-white border-b pb-2">We Accept</h6>
-          <a className="link link-hover">Esewa</a>
+          <a className="cursor-pointer">
+            <div className='rounded-lg overflow-hidden border'>
+              <img src={esewa} alt="" width={112} className=''/>
+            </div>
+          </a>
 
         </nav>
       </footer>
@@ -52,11 +56,11 @@ const Footer = () => {
       <div className='text-sm flex-col'>
         <ul className='flex justify-center gap-4 border-dashed border-b py-2'>
           <li><span className='font-semibold'>Address:</span> 260 Balkumari, Lalitpur</li>
-          <li><span className='font-semibold'>Email:</span>  giffiz22@gmail.com</li>
+          <li><span className='font-semibold'>Email:</span>  giffz22@gmail.com</li>
           <li><span className='font-semibold'>Tel:</span> (416) 369-1146</li>
           <li><span className='font-semibold'>Time:</span>  Monday-Friday (8:30AM - 9:00PM)</li>
         </ul>
-        <p className='flex justify-center items-center py-2'>©  2024 Giffiz All Right Reserved.</p>
+        <p className='flex justify-center items-center py-2'>©  2024 Giffz All Right Reserved.</p>
       </div>
     </div>
 
