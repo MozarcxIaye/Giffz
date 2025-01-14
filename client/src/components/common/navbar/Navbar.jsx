@@ -18,7 +18,7 @@ const Navbar = () => {
           </div>
           {/* logo description */}
           <div className='flex flex-col text-sm'>
-            <span className='uppercase text-[#C92686]'>Welcome to Giffz</span>
+            <span className='uppercase text-[#C92686] font-bold'>Welcome to Giffz</span>
             <span className='capitalize text-slate-600'>Find your <span className='text-[#C92686]'>Perfect Gift</span> Options Here</span>
           </div>
         </div>

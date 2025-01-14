@@ -4,8 +4,8 @@ import esewa from "../../../assets/esewa.png"
 
 const Footer = () => {
   return (
-    <div className='bottom-0 absolute w-full bg-[#3D3269] text-slate-100'>
-      <footer className="footer  p-10 ">
+    <div className='w-full bg-[#3D3269] text-slate-100'>
+      <footer className="footer p-10 ">
         <aside>
           <div className="flex items-center gap-2">
             <img src={logo} alt="" srcset="" />

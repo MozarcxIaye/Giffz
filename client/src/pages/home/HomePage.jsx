@@ -1,10 +1,10 @@
 import React from 'react'
+import Home from '../../components/homepage/Home'
 
 const HomePage = () => {
   return (
     <div>
-        {/* <Home /> */}
-        <p>Welcome to Giffz</p>
+        <Home />
     </div>
   )
 }
