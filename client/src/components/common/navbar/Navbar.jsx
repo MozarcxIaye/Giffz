@@ -1,6 +1,7 @@
 import React from 'react'
 import InfoNav from './InfoNav'
 import logo from "../../../assets/logo.png"
+import InnerNavbar from './InnerNav'
 import Text from '../../../units/Text'
 import Button from '../../../units/Button'
 
@@ -8,7 +9,6 @@ const Navbar = () => {
   return (
     <div>
       <InfoNav />
-      {/* <p>Navbar</p> */}
       <nav className='bg-[#FEEDF7] flex items-center justify-around py-2'>
         {/* logo */}
         <div className='flex items-center gap-3'>
@@ -47,6 +47,7 @@ const Navbar = () => {
         </div>
 
       </nav>
+      <InnerNavbar />
     </div>
   )
 }
