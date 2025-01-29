@@ -1,10 +1,10 @@
 import React from 'react';
-import Text from '../../units/Text';
-import FeaturesData from '../../constants/mock/Features';
+import Text from '../../../units/Text';
+import FeaturesData from '../../../constants/mock/Features';
 
 const Features = () => {
     return (
-        <div className='flex flex-wrap border bg-[#FEEDF7] items-center justify-center  gap-4 p-4 md:p-6 rounded-2xl mx-auto w-full max-w-screen-lg z-10 -translate-y-14'>
+        <div className='flex flex-wrap border bg-[#FEEDF7] items-center justify-center gap-4 p-4 md:p-6 rounded-2xl mx-auto w-full max-w-screen-lg z-10 -translate-y-16'>
             {FeaturesData.features.map((feature, id) => (
                    <div 
                    key={id} 
