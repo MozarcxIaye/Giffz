@@ -3,6 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import arrow from "../../../assets/arrow.png"
 import carousel1 from "../../../assets/carousel1.png"
 import Features from '../features/Features';
+import ButtonswithArrow from '../../ReusableComponent/buttons/ButtonswithArrow';
 
 const Main = () => {
     // State to track the current slide
@@ -58,13 +59,11 @@ const Main = () => {
             {/* Shared Content Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-start justify-center text-white pl-40">
                 <div className='flex flex-col items-center justify-center '>
-
                     <h2 className="text-4xl font-bold font-dancingScript">Find Your <span className='text-6xl text-[#C92686]'>Perfect Gift</span></h2>
                     <p className="mt-4 text-4xl font-dancingScript font-bold">Options Here</p>
-                    <button className="mt-6 px-6 py-3 bg-[#F82BA9] rounded-md hover:bg-[#e03fa2] relative flex gap-1 items-center text-sm">
-                    <img src={arrow} alt="" className='absolute left-32 bottom-2' />
-                        Shop Now <IoIosArrowForward />
-                    </button>
+                    <ButtonswithArrow text="Shop Now">
+                        <img src={arrow} alt="" className='absolute left-32 bottom-2' />
+                    </ButtonswithArrow>
                 </div>
             </div>
 

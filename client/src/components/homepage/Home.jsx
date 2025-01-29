@@ -1,6 +1,6 @@
 import React from 'react'
 import Main from './home/Main'
-import Explore from '../explore/Explore'
+import Explore from './explore/Explore'
 
 const Home = () => {
   return (
