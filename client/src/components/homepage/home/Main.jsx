@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { IoIosArrowForward } from "react-icons/io";
 import arrow from "../../../assets/arrow.png"
 import carousel1 from "../../../assets/carousel1.png"
-import Features from '../../features/Features';
+import Features from '../features/Features';
 
 const Main = () => {
     // State to track the current slide
