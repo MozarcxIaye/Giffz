@@ -11,7 +11,11 @@ export default {
   			dancingScript: [
   				'Dancing Script',
   				'cursive'
-  			]
+  			],
+			Montserrat: [
+				'Montserrat',
+				'cursive'
+			]
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
