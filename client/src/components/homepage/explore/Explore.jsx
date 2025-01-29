@@ -30,7 +30,7 @@ const Explore = () => {
       </div>
 
       {/* Carousel component */}
-      <div className="mt-6 md:mt-0 w-full md:w-[50%] flex flex-grow-0">
+      <div className="mt-6 md:mt-0 w-full md:w-[50%] flex flex-grow-0 select-none">
         <Carousel
           opts={{
             align: "start",

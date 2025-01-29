@@ -12,7 +12,7 @@ import { CiLocationOn } from "react-icons/ci";
 const IconWithText = ({ icon: Icon, text }) => (
     <div className="flex items-center gap-1">
         <Icon style={{ width: '20px', height: '20px' }} />
-        <p className='font-serif'>{text}</p>
+        <p className='font-serif cursor-pointer'>{text}</p>
     </div>
 );
 
@@ -30,7 +30,7 @@ const InfoNav = () => {
                         { icon: FaXTwitter },
                         { icon: FaLinkedinIn },
                     ].map(({ icon: Icon }, idx) => (
-                        <div key={idx} className="bg-white p-2 rounded-full w-max">
+                        <div key={idx} className="bg-white p-2 rounded-full w-max cursor-pointer">
                             <Icon style={{ width: '14px', height: '14px', color: '#D4519E' }} />
                         </div>
                     ))}
