@@ -15,7 +15,7 @@ import arrow2 from "../../../assets/arrow2.png"
 
 const Explore = () => {
   return (
-    <div className='flex flex-col md:flex-row h-[60vh] justify-around items-center bg-[#fff] px-8 pt-8'>
+    <div className='flex flex-col md:flex-row h-[55vh] justify-around items-center bg-[#fff] px-8 pt-8'>
       {/* Explore description */}
       <div className="text-center md:text-left md:mr-10 flex flex-shrink-0 max-w-xs md:max-w-sm flex-wrap">
       <Text className='text-[#F82BA9] font-Montserrat'>Premium Gifts</Text>
