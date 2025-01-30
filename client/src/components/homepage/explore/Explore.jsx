@@ -41,13 +41,13 @@ const Explore = () => {
             {Array.from({ length: 5 }).map((_, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div>
-                  <Card className="h-[220px] relative">
+                  <Card className="h-[220px] relative overflow-hidden">
                     <CardContent className="flex flex-col aspect-square items-center justify-center p-4">
                       <div className="w-full h-full flex items-center justify-center flex-col">
                         <img src={giftbox} alt="" className='w-3/4 object-contain' />
                         <div className='bg-[#FEEDF7] absolute w-full bottom-0 flex justify-center items-center '>
                           {/* img category */}
-                          <Text className="text-gray-600 text-[16px] font-Montserrat">Special Gift Box</Text>
+                          <span className="text-gray-600 font-Montserrat text-[16px]">Special Gift Box</span>
                         </div>
                       </div>
                     </CardContent>
