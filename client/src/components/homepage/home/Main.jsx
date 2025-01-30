@@ -27,7 +27,7 @@ const Main = () => {
     };
 
     return (
-        <div className="relative w-full h-[600px]">
+        <div className="relative w-full h-[500px]">
             {/* Slides Container */}
             <div className="carousel w-full h-full">
                 <div id="slide1" className="carousel-item relative w-full">
