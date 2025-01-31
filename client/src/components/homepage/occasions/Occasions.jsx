@@ -17,7 +17,7 @@ const Occasions = () => {
                 </div>
 
                 {/* shop now */}
-                <div className='absolute bottom-0 right-0 underline decoration-dashed text-gray-800 underline-offset-4 m-4'>
+                <div className='absolute bottom-0 cursor-pointer right-0 underline decoration-dashed text-gray-800 underline-offset-4 m-4'>
                     Shop Now
                 </div>
             </div>
@@ -33,7 +33,7 @@ const Occasions = () => {
                 </div>
 
                 {/* shop now */}
-                <div className='absolute bottom-0 right-0 underline decoration-dashed text-gray-800 underline-offset-4 m-4'>
+                <div className='absolute cursor-pointer bottom-0 right-0 underline decoration-dashed text-gray-800 underline-offset-4 m-4'>
                     Shop Now
                 </div>
 
