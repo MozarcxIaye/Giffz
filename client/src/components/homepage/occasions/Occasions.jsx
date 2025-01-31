@@ -17,7 +17,7 @@ const Occasions = () => {
                 </div>
 
                 {/* shop now */}
-                <div className='absolute bottom-0 right-0 underline decoration-dashed text-gray-800 underline-offset-4 m-4'>
+                <div className='absolute bottom-0 cursor-pointer right-0 underline decoration-dashed text-gray-800 underline-offset-4 m-4'>
                     Shop Now
                 </div>
             </div>
@@ -33,7 +33,7 @@ const Occasions = () => {
                 </div>
 
                 {/* shop now */}
-                <div className='absolute bottom-0 right-0 underline decoration-dashed text-gray-800 underline-offset-4 m-4'>
+                <div className='absolute cursor-pointer bottom-0 right-0 underline decoration-dashed text-gray-800 underline-offset-4 m-4'>
                     Shop Now
                 </div>
 
@@ -45,7 +45,9 @@ const Occasions = () => {
                 <div className="z-10 absolute bg-[#FEEDF7] h-full flex flex-col w-2/4 justify-center items-start px-6">
                     <span className='text-lg font-dancingScript font-bold text-black'>Dashain Sale</span>
                     <span className='text-4xl font-dancingScript text-[#C92686] font-bold'>Up To 40% Off</span>
-                    <ButtonswithArrow text={"View Details"} />
+                    <div className='mt-4'>
+                        <ButtonswithArrow text={"View Details"} />
+                    </div>
                 </div>
                 <img src={occassion3} alt="dashain occasion" className='w-full' />
             </div>

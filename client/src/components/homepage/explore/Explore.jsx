@@ -22,7 +22,7 @@ const Explore = () => {
         <Text className="font-Montserrat">
           Experience <span className='text-[#F82BA9]'>Premium Gifts</span> and Products
         </Text>
-        <div>
+        <div className='mt-4'>
           <ButtonswithArrow text='Explore Now'>
             <img src={arrow2} alt="" className='absolute left-44 bottom-0' />
           </ButtonswithArrow>

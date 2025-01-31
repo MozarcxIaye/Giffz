@@ -61,9 +61,11 @@ const Main = () => {
                 <div className='flex flex-col items-center justify-center '>
                     <h2 className="text-4xl font-bold font-dancingScript">Find Your <span className='text-6xl text-[#C92686]'>Perfect Gift</span></h2>
                     <p className="mt-4 text-4xl font-dancingScript font-bold">Options Here</p>
-                    <ButtonswithArrow text="Shop Now">
-                        <img src={arrow} alt="" className='absolute left-32 bottom-2' />
-                    </ButtonswithArrow>
+                    <div className='mt-4'>
+                        <ButtonswithArrow text="Shop Now">
+                            <img src={arrow} alt="" className='absolute left-32 bottom-2' />
+                        </ButtonswithArrow>
+                    </div>
                 </div>
             </div>
 

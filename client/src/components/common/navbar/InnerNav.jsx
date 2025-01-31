@@ -6,7 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 // Navbar Component
 const InnerNavbar = () => (
-  <nav className="flex justify-center gap-4 p-2 bg-[#C92686]">
+  <nav className="flex justify-center gap-4 p-1 bg-[#C92686]">
     {navBarData.navBar.map((navItem, index) => (
       <div
         key={index}
@@ -17,7 +17,7 @@ const InnerNavbar = () => (
         <Link
           to={navItem.link}
           tabIndex={0}
-          className="btn m-1 bg-transparent text-white border-none flex flex-nowrap"
+          className="btn m-1 bg-transparent text-white border-none shadow-none flex flex-nowrap"
         >
           {navItem.title}
           {navItem.title !== "HOME" && navItem.dropdown.length > 0 && (
