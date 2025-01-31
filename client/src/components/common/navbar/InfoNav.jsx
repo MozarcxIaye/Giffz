@@ -12,7 +12,7 @@ import { CiLocationOn } from "react-icons/ci";
 const IconWithText = ({ icon: Icon, text }) => (
     <div className="flex items-center gap-1">
         <Icon style={{ width: '20px', height: '20px' }} />
-        <p className='font-serif cursor-pointer'>{text}</p>
+        <p className='font-serif cursor-pointer hover:underline underline-offset-8 decoration-dashed'>{text}</p>
     </div>
 );
 
@@ -24,13 +24,13 @@ const InfoNav = () => {
 
                 {/* Social Media Icons */}
                 <div className="flex gap-2">
-                    {[
+                    {[  
                         { icon: FaFacebookF },
                         { icon: IoLogoInstagram },
                         { icon: FaXTwitter },
                         { icon: FaLinkedinIn },
                     ].map(({ icon: Icon }, idx) => (
-                        <div key={idx} className="bg-white p-2 rounded-full w-max cursor-pointer">
+                        <div key={idx} className="bg-white p-2 rounded-full w-max cursor-pointer hover:bg-[#2a2a2a]  duration-200 ">
                             <Icon style={{ width: '14px', height: '14px', color: '#D4519E' }} />
                         </div>
                     ))}

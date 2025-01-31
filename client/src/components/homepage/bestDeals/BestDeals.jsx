@@ -10,7 +10,7 @@ const BestDeals = () => {
                     {/* title */}
                     <h2 className="capitalize font-bold text-2xl font-Montserrat tracking-wide">Best Deals for this week</h2>
                     <div className="font-thin">Dive into our exclusive deals and make every gift count. Shop now and save big on the perfect surprises!</div>
-                    <div className="font-bold flex items-center gap-2"><span className="text-[#f41e1eef] text-lg">10% Off </span> In Every Gift Kits</div>
+                    <div className="font-bold flex items-center gap-2"><span className="text-[#ff69B4] text-lg">10% Off </span> In Every Gift Kits</div>
                 </div>
 
                 {/* left overlay bg */}
