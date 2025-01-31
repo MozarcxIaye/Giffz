@@ -6,7 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 // Navbar Component
 const InnerNavbar = () => (
-  <nav className="flex justify-center gap-4 p-2 bg-[#C92686]">
+  <nav className="flex justify-center gap-4 p-1 bg-[#C92686]">
     {navBarData.navBar.map((navItem, index) => (
       <div
         key={index}
