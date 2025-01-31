@@ -15,6 +15,10 @@ export default {
 			Montserrat: [
 				'Montserrat',
 				'cursive'
+			],
+			poppins: [
+				'Poppins',
+				'cursive'
 			]
   		},
   		borderRadius: {
