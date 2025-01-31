@@ -15,7 +15,7 @@ import arrow2 from "../../../assets/arrow2.png"
 
 const Explore = () => {
   return (
-    <div className='flex flex-col md:flex-row h-[60vh] justify-around items-center bg-[#fff] px-8 pt-8'>
+    <div className='flex flex-col md:flex-row h-[55vh] justify-around items-center bg-[#fff] px-8 pt-8'>
       {/* Explore description */}
       <div className="text-center md:text-left md:mr-10 flex flex-shrink-0 max-w-xs md:max-w-sm flex-wrap">
       <Text className='text-[#F82BA9] font-Montserrat'>Premium Gifts</Text>
@@ -41,7 +41,7 @@ const Explore = () => {
             {Array.from({ length: 5 }).map((_, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div>
-                  <Card className="h-[220px] relative overflow-hidden">
+                  <Card className="h-[220px] relative overflow-hidden drop-shadow-md">
                     <CardContent className="flex flex-col aspect-square items-center justify-center p-4">
                       <div className="w-full h-full flex items-center justify-center flex-col">
                         <img src={giftbox} alt="" className='w-3/4 object-contain' />
@@ -53,7 +53,7 @@ const Explore = () => {
                     </CardContent>
                   </Card>
                       <div className='flex justify-between items-center w-full mt-4 px-2'>
-                        <span className='font-semibold text-[#F82BA9]'>Rs. 1500</span>
+                        <span className='font-bold font-poppins text-[#F82BA9]'>Rs. 1500</span>
                         <button className='border border-[#F82BA9] text-[#F82BA9] px-4 py-1 rounded-lg hover:bg-[#F82BA9] hover:text-white'>
                           Cart
                         </button>

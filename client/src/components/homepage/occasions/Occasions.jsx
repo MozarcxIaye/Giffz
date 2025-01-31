@@ -6,7 +6,7 @@ import ButtonswithArrow from '@/components/ReusableComponent/buttons/Buttonswith
 
 const Occasions = () => {
     return (
-        <div className="flex justify-center items-center gap-8 bg-[#F7F7F7] h-[55vh]">
+        <div className="flex justify-center items-center gap-8 bg-[#F7F7F7] h-[53vh]">
             {/* occasion 1 - Valentines */}
             <div className="rounded-xl relative drop-shadow-lg">
                 <img src={occassion} alt="valentine occasion" className='w-full' />
@@ -40,7 +40,7 @@ const Occasions = () => {
             </div>
 
             {/* occasion 3 - Dashain */}
-            <div className="flex relative items-center justify-start">
+            <div className="flex relative items-center justify-start rounded-lg overflow-hidden drop-shadow-lg">
                 {/* description section */}
                 <div className="z-10 absolute bg-[#FEEDF7] h-full flex flex-col w-2/4 justify-center items-start px-6">
                     <span className='text-lg font-dancingScript font-bold text-black'>Dashain Sale</span>
