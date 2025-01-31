@@ -17,7 +17,7 @@ const InnerNavbar = () => (
         <Link
           to={navItem.link}
           tabIndex={0}
-          className="btn m-1 bg-transparent text-white border-none flex flex-nowrap"
+          className="btn m-1 bg-transparent text-white border-none shadow-none flex flex-nowrap"
         >
           {navItem.title}
           {navItem.title !== "HOME" && navItem.dropdown.length > 0 && (
